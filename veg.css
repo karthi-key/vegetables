@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(31, 28, 28);
+    padding: 1px;
+    height:55px;
+}
+.title{
+    font-size: 12px;
+    color: rgb(7, 204, 50);
+    margin: 10px;
+    border: 1px solid  rgb(121, 119, 119);
+    width:100px ;
+    height:40px;
+    position: relative;
+    top:-3px;
+    box-shadow: 1px 1px 4px 2px rgb(59, 228, 25);
+}
+.main{
+    height:85vh ;
+    padding-top: 80px;
+}
+.navbar li{
+    display: inline;
+
+}
+.menubar li a{
+    list-style: none;
+    position: relative;
+    top: 20px;
+    padding:20px;
+    text-decoration: none;
+    color: antiquewhite;;
+    transition: 2s;
+ }
+.menubar li a:hover{
+    color:rgb(12, 223, 30);
+}
+#will{
+    cursor: pointer;
+}
+.view{
+    height: 100px;
+    width: 300px;
+    background: white;
+    position: absolute;
+    top: 45px;
+    right:20px;
+    display: none; 
+}
+.finish{
+    width: 15px;
+    position: relative;
+    top: -36px;
+    right:-280px;
+}
+.sea{
+    margin-top: 30px;
+    padding: 5px;
+    width: 200px;
+    margin-left: -10px;
+    border-radius: 10px;
+}
+.get-search{
+    color: rgb(15, 15, 15);
+    background-color: rgb(65, 226, 65);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.cart-bx{
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    color: antiquewhite;
+}
+.cart-box{
+    position:relative;
+    right:-20px;
+    top:-10px;
+    line-height: 5px;
+    border-radius: 50%;
+    color: antiquewhite;
+}
+.sign{
+    margin: 10px;
+    padding:7px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 223, 30);
+}
+.pop{
+    height: 250px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    top: 50px;
+    right:25px;
+    display: none;
+}
+.close{
+    width: 15px;
+}
+.user{
+    position: relative;
+    top:10px;
+}
+.user-name{
+    position: relative;
+    left:20px ;
+    top:30px;
+
+}
+.pass{
+    position: relative;
+    left:125px ;
+    top:20px;
+}
+.log{
+    position: relative;
+    top:60px;
+    left:-20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(115, 240, 115);
+    border: none;
+    border-radius: 10px;
+}
+.main{
+    text-align: center;
+    background-color:rgb(213, 245, 195);;
+    color: rgb(19, 20, 20);
+    height: 100vh;
+}
+.org{
+    margin-top: -8px;
+    width:70px;
+    height:50px;
+}
+.organic{
+    padding: 30px;
+    font-size: 70px;
+}
+.now{
+    width: 250px;
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.now a{
+    list-style:none;
+    color:rgb(44, 212, 44) ; 
+}
+.now a:hover{
+    color:rgb(44, 212, 44) ;
+    text-decoration: none;
+}
+.search{
+    margin-top: 20px;
+    padding: 5px;
+    width:380px ;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+    position: relative;
+   top:-100px;
+}
+.get{
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 100px;
+    height:35px;
+    border-radius: 8px;
+    border: none;
+    border-color: azure;
+    background-color: rgb(12, 223, 30);
+   
+}
+.section{
+    display: flex;
+    
+}
+.image100{
+    width: 500px;
+}
+.aboutus{
+      margin-top: 90px;
+      font-size:17px ;
+      text-align: justify;
+      height:85vh ;
+      padding-right: 25px;
+    
+      
+}
+.article{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 10px;
+}
+.veg-name{
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 10px;
+}
+.veg-kg{
+    font-weight: bold;
+    font-size: 17px;
+}
+.veg1{
+    width:120px ;
+    height:125px ;
+    margin-top: 10px;
+    border:1px solid rgb(24, 202, 98) ;
+} 
+
+.veg2{
+    width:120px ;
+    height:125px ;
+    margin-top: 10px;
+    border:1px solid rgb(24, 202, 98) ;
+} 
+
+.veg3{
+    width:120px ;
+    height:125px ;
+    border:1px solid  rgb(24, 202, 98)  ;
+    margin-top: 10px;
+}
+.btn{
+    margin-top:5px;
+    margin-left:15px;
+}
+.btn-box{
+    width: 70px;
+    position: relative;
+    left: 10px;
+    padding-left:-20px;
+    margin: 10px 0;
+    background-color: rgb(138, 243, 138);
+    border: none;
+    border-radius: 5px;
+}
+.fa-check-square{
+    color: rgb(4, 100, 28);
+}
+.imgs{
+    margin-top: 10px;
+}
+.imgs-bx{
+    border:1px solid rgb(221, 212, 212) ;
+    padding:3px 12px 3px 10px;
+    margin: 10px;
+}
+.foot{
+    display:flex;
+    position:relative;
+    left: -85px;
+    margin-top: 50px;
+    width:1200px;
+}
+.cotact{
+    position: relative;
+    left:30px ;
+    top:10px;
+  
+}
+.contact{
+font-size:30px;
+
+}
+.contactin{
+  width: 350px;
+   height:50px ;
+}
+.carousel{
+   margin-bottom:20px ;
+}
+
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input,textarea{
+    margin: 0 0 30px;
+    font-family: arial;
+    background-color: #fbfbfb;
+    border-radius: 3px;
+    font-size: 16px;
+    border:1px solid #a1a1a1;
+}
+textarea{
+    height: 150px;
+    width: 350px;
+    resize: none;
+    font-size: 20px;
+}
+input[type="submit"]{
+    display: block;
+    margin-left: 130px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(32, 170, 39);
+    border:0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top:7px;
+}
+.containe{
+    position: relative;
+    right: -160px;
+    top:-10px;	
+    font-weight: bold;
+}
+.headin{
+    margin-left:155px;
+    font-size: 40px;
+    position: relative;
+    top:-10px;
+}
+.submit{
+    margin-left: 100px;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.lastimg{
+    margin-top: 29px;
+    margin-left: 20px;
+    width: 700px;
+    height: 299px;
+}
+.move{
+    display: relative;
+    left: 100px;
+    top:15px;
+}
+.footerlast{
+    display: flex;
+    align-content: center;
+    background-color: rgb(212, 205, 205);
+}
+.footer_tag{
+    margin-left: 150px;
+}
